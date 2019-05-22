@@ -111,8 +111,7 @@ a:hover {
 	position: relative;
 	margin: 0 0 5px;
 	padding: 8px 52px 8px 20px;
-	
-	background: #3456ab;
+	background: #3498db;
 	color: #fff;
 }
 h1 {
@@ -262,7 +261,7 @@ blockquote p {
 
 
 .qam-search.turquoise .qa-search {
-	background: #1abc9c;
+	background: red;
 }
 .qam-search.turquoise .qa-search-field:focus {
 	border-color: #117964;
