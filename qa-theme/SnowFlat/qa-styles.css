@@ -261,7 +261,7 @@ blockquote p {
 
 
 .qam-search.turquoise .qa-search {
-	background: red;
+	background: #1abc9c;
 }
 .qam-search.turquoise .qa-search-field:focus {
 	border-color: #117964;
