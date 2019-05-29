@@ -4,12 +4,12 @@ class qa_html_theme_layer extends qa_html_theme_base {
 	
 	var $theme_directory;
 	var $theme_url;
-	function qa_html_theme_layer($template, $content, $rooturl, $request)
+	 public function __construct($template, $content, $rooturl, $request)
 	{
 		global $qa_layers;
 		$this->theme_directory = $qa_layers['Theme Options']['directory'];
 		$this->theme_url = $qa_layers['Theme Options']['urltoroot'];
-		qa_html_theme_base::qa_html_theme_base($template, $content, $rooturl, $request);
+		parent::qa_html_theme_base($template, $content, $rooturl, $request);
 	}
 	
 	function q_list($q_list)
