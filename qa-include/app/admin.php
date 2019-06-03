@@ -109,6 +109,7 @@ function qa_admin_language_options()
 		'sr' => 'Serbian - Српски',
 		'sv' => 'Swedish - Svenska',
 		'th' => 'Thai - ไทย',
+		'ti' => "Tigrinya",
 		'tr' => 'Turkish - Türkçe',
 		'ug' => 'Uyghur - ئۇيغۇرچە',
 		'uk' => 'Ukrainian - Українська',
